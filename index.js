@@ -61,7 +61,7 @@ const visObject = {
         }
         chartdata.push({
           index: chartdata.length,
-          name: path.slice(i, i + 1)[0],
+          name: path.join('-'),
           value: +d[measure.name].value,
         });
       });
